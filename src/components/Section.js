@@ -26,7 +26,7 @@ export default function Section(props){
                         }
                     </ButtonGroup>
                 </Fade>
-                <DownArrow src="/images-20220130T120026Z-001/images/down-arrow.svg" />
+                <DownArrow src="/images-20220130T120026Z-001/down-arrow.svg" />
             </Buttons>
         </Wrap>
     )
@@ -34,7 +34,7 @@ export default function Section(props){
 
 const Wrap = styled.div`
     height:100vh;
-    background-image: ${props => `url(/images-20220130T120026Z-001/images/${props.backImg})`};
+    background-image: ${props => `url(/images-20220130T120026Z-001/${props.backImg})`};
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
