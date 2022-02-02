@@ -9,7 +9,7 @@ export default function Header(){
   return(
     <Container>
       <a href="#">
-        <img alt="" src="/images-20220130T120026Z-001/logo.svg" />
+        <img src='../images/logo.svg'></img>
       </a>
 
       <Menu>
