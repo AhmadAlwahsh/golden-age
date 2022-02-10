@@ -1,0 +1,24 @@
+.articals{
+    padding: 100px 0;
+    background-image: url(../Images/back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .artical{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            color: white;
+            h3{
+                padding: 10px;
+                span{
+                    color:$main-color;
+                }
+            }
+        }
+    }
+}
