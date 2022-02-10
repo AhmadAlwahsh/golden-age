@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/tesla/static/js/main.1aa3a9ee.js",
-    "index.html": "/tesla/index.html",
-    "main.1aa3a9ee.js.map": "/tesla/static/js/main.1aa3a9ee.js.map"
+    "main.js": "/golden-age/static/js/main.1aa3a9ee.js",
+    "index.html": "/golden-age/index.html",
+    "main.1aa3a9ee.js.map": "/golden-age/static/js/main.1aa3a9ee.js.map"
   },
   "entrypoints": [
     "static/js/main.1aa3a9ee.js"
