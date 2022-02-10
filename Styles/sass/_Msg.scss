@@ -1,0 +1,36 @@
+.msg{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../Images/back3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 2;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        .box{
+            padding: 30px;
+            background-image: radial-gradient(rgba(0,0,0,1),transparent);
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 5px;
+            margin: 20px;
+            color: white;
+            i{
+                color: $main-color;
+            }
+            h3{
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-image: linear-gradient(270deg , $white-color , $main-color);
+                font-weight: bolder;
+            }
+        }
+    }
+}
